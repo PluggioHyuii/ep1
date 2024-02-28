@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "SET DEBUG=ep1:* & node ./bin/www"
+    "start": "DEBUG=ep1:* & node ./bin/www"
   },
   "dependencies": {
     "cookie-parser": "~1.4.4",
